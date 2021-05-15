@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+}
+
+h1{
+    color:rgb(255, 0, 170);
+}
+
+h2{
+    color:rgb(162, 0, 255);
+}
+.item{
+    text-align: center;  
+    border:solid;
+    border-radius: 50px;
+    border-width: 300;
+    width: 310;
+}
+.img {
+    border:solid;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 225, 255);
+    font-size:  20px; 
+    font-weight: 400;
+    font-family: sans-serif;
+}
+body  {
+    background-color: whitesmoke;
+}
+
+.bodyimg {
+position: relative;
+text-align: center;
+color: white ;
+}
+.instructions{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size :25px;
+
+    
+}
+.details{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px ;
+    
+}
+
+.item:hover{
+    transform: scale(1.1);
+}
+
+.item:hover image{
+    opacity: 0.33;
+}
+
+.item h1{
+    position:absolute;
+    top:50%;
+    left: 220px;;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+
+}
+
+.item:hover h1{
+    opacity: 1;
+
+}
+
+
